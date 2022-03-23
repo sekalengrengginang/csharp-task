@@ -9,9 +9,18 @@ namespace taxiProgram{
             //Method
 
         public void Taxinfo(){
-            Console.WriteLine("Driver Name ={0} ",DriverName);
-            Console.WriteLine("On Duty = {0}",OnDuty);
-            Console.WriteLine(" Number Of Passenger = {0}",NumPassenger);
+          string nilaiOnDuty;
+           
+
+            if (OnDuty){
+                nilaiOnDuty = "Yes";
+            }
+            else {
+                nilaiOnDuty = "No";
+            }
+            Console.WriteLine("Driver Name = {0} ",DriverName);
+            Console.WriteLine("On Duty = {0}",nilaiOnDuty);        
+            Console.WriteLine("Number Of Passenger = {0}",NumPassenger);
 
             }
 

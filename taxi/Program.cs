@@ -6,7 +6,7 @@ class Program
         Taxi taxi = new Taxi();
 
         //properties value
-        taxi.DriverName = "Amane Shindou";
+        taxi.DriverName = "Mr White";
         taxi.OnDuty = false;
         taxi.NumPassenger = 10;
 
