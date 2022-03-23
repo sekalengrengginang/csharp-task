@@ -1,39 +1,43 @@
 using System;
 
 namespace taxiProgram{
+    //Properties
     public class Taxi{
         public string DriverName {get; set;}
-        public string OnDuty {get; set;}
-        public string NumPassenger {get; set;}
-    }
+        public bool OnDuty {get; set;}
+        public int NumPassenger {get; set;}
+            //Method
 
-            public void Taxi(){
+        public void Taxinfo(){
+            Console.WriteLine("Driver Name ={0} ",DriverName);
+            Console.WriteLine("On Duty = {0}",OnDuty);
+            Console.WriteLine(" Number Of Passenger = {0}",NumPassenger);
 
-                Console.WriteLine("Informasi Taksi: {0}",TaxiInfo);
-                Console.WriteLine("Penumpang Naik:{0} ",PickUpPassenger);
-                Console.WriteLine("Penumpang Turun: {0} ",DropOffPassenger;
+            }
 
-
-
-
-
-
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-
+        public void pickuPassenger(){
+                Console.WriteLine("{0} sedang menjemput penumpang",DriverName);
+             }
+        public void droPassenger(){
+                Console.WriteLine("{0} sedang mengantar penumpang",DriverName);
+            }
 
 
 
 
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
