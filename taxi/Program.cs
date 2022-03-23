@@ -7,13 +7,15 @@ class Program
 
         //properties value
         taxi.DriverName = "Mr White";
-        taxi.OnDuty = false;
+        taxi.OnDuty = true;
         taxi.NumPassenger = 10;
 
         //method call
         taxi.Taxinfo();
         taxi.pickuPassenger();
         taxi.droPassenger();
+
+        Console.ReadKey();
    }
 
 
