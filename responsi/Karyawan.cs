@@ -3,9 +3,9 @@ namespace karyawan {
 
 //properties
 public class Karyawan{
-    public string  Nik 
-    public string Nama  
-    public int GajiBulanan 
+    private string  Nik 
+    private string Nama  
+    private int GajiBulanan 
 
 
     public string Nik(){
