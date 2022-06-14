@@ -9,8 +9,8 @@ namespace Program
         {
             Mahasiswa mhs = new Mahasiswa();
             mhs.npm = "21.11.4000";
-            mhs.nama = "Momen";
-            mhs.email = "kulkas@email.com";
+            mhs.nama = "Ayaka Tachikawa";
+            mhs.email = "ayaka@email.com";
 
             Console.WriteLine("Pilih Format Konversi Data:");
             Console.WriteLine("1.Json");
